@@ -1,0 +1,154 @@
+Using GL Version: 3.3.0 NVIDIA 450.80.02
+Vendor: NVIDIA Corporation
+Renderer: GeForce 920M/PCIe/SSE2
+Version: 3.3.0 NVIDIA 450.80.02
+GLSL Version: 3.30 NVIDIA via Cg compiler
+Number of shaders to fetch: 2
+fetching shader from file : res/shaders/vertexshader.glsl
+fetching shader from file : res/shaders/fragmentshader.glsl
+GL_VERTEX_SHADER
+#version 330 core
+
+layout(location = 0) in vec4 position;
+layout(location = 1) in vec4 in_color;
+
+uniform mat4 u_MVP;
+
+out VS {
+    vec4 color;
+} to_fs;
+
+void main() {
+    gl_Position = u_MVP * position;
+    to_fs.color = in_color;
+};
+
+GL_FRAGMENT_SHADER
+#version 330 core
+// #extension GL_ARB_separate_shader_objects : enable
+out vec4 out_color;
+
+in VS
+{
+   vec4 color;
+} from_vs;
+
+void main() {
+    out_color = from_vs.color;
+};
+
+vertex shader compile status: 1
+fragment shader compile status: 1
+Program link status: 1
+Number of shaders to fetch: 2
+fetching shader from file : res/shaders/vertexshader1.glsl
+fetching shader from file : res/shaders/fragmentshader1.glsl
+GL_VERTEX_SHADER
+#version 330 core
+
+layout(location = 0) in vec4 position;
+layout(location = 1) in vec4 in_color;
+
+uniform mat4 u_MVP;
+
+out VS1 {
+    vec4 color;
+} to_fs;
+
+void main() {
+    gl_Position = u_MVP * position;
+    to_fs.color = in_color;
+};
+
+GL_FRAGMENT_SHADER
+#version 330 core
+// #extension GL_ARB_separate_shader_objects : enable
+out vec4 out_color;
+
+in VS1
+{
+   vec4 color;
+} from_vs;
+
+void main() {
+    out_color = from_vs.color;
+};
+
+vertex shader compile status: 1
+fragment shader compile status: 1
+Program link status: 1
+Number of shaders to fetch: 2
+fetching shader from file : res/shaders/vertexshader1.glsl
+fetching shader from file : res/shaders/fragmentshader1.glsl
+GL_VERTEX_SHADER
+#version 330 core
+
+layout(location = 0) in vec4 position;
+layout(location = 1) in vec4 in_color;
+
+uniform mat4 u_MVP;
+
+out VS1 {
+    vec4 color;
+} to_fs;
+
+void main() {
+    gl_Position = u_MVP * position;
+    to_fs.color = in_color;
+};
+
+GL_FRAGMENT_SHADER
+#version 330 core
+// #extension GL_ARB_separate_shader_objects : enable
+out vec4 out_color;
+
+in VS1
+{
+   vec4 color;
+} from_vs;
+
+void main() {
+    out_color = from_vs.color;
+};
+
+vertex shader compile status: 1
+fragment shader compile status: 1
+Program link status: 1
+Number of shaders to fetch: 2
+fetching shader from file : res/shaders/vertexshader1.glsl
+fetching shader from file : res/shaders/fragmentshader1.glsl
+GL_VERTEX_SHADER
+#version 330 core
+
+layout(location = 0) in vec4 position;
+layout(location = 1) in vec4 in_color;
+
+uniform mat4 u_MVP;
+
+out VS1 {
+    vec4 color;
+} to_fs;
+
+void main() {
+    gl_Position = u_MVP * position;
+    to_fs.color = in_color;
+};
+
+GL_FRAGMENT_SHADER
+#version 330 core
+// #extension GL_ARB_separate_shader_objects : enable
+out vec4 out_color;
+
+in VS1
+{
+   vec4 color;
+} from_vs;
+
+void main() {
+    out_color = from_vs.color;
+};
+
+vertex shader compile status: 1
+fragment shader compile status: 1
+Program link status: 1
+Mouse Entered Window

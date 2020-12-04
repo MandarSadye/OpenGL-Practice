@@ -1,0 +1,199 @@
+// NEW_SEG_START
+ID: 0
+NAME: Cube
+PARENT: -1
+VERTEX_COUNT: 8
+VERTEX_SIZE: 8
+VERTEX:
+2.5 0.5 0.0 1.0     1.0 0.0 0.0 1.0
+-0.5 -0.5 0.0 1.0   1.0 0.0 0.0 1.0
+0.5 -0.5 0.0 1.0    1.0 0.0 0.0 1.0
+-0.5 0.5 0.0 1.0    1.0 0.0 0.0 1.0
+0.5 0.5 1.0 1.0     0.0 1.0 0.0 1.0
+-0.5 -0.5 1.0 1.0   0.0 1.0 0.0 1.0
+0.5 -0.5 1.0 1.0    0.0 1.0 0.0 1.0
+-0.5 0.5 1.0 1.0    0.0 1.0 0.0 1.0
+ELEMENT_TYPE: GL_TRIANGLES
+ELEMENT_COUNT: 12
+ELEMENT:
+0 1 3
+0 2 1 
+4 5 7
+4 6 5
+1 3 7
+1 7 5
+2 4 0
+2 6 4
+0 4 7
+0 7 3
+1 5 2
+2 5 6
+FREEDOM:
+ROTATION:
+X: T
+Y: T
+Z: T
+TRANSLATION:
+X: T
+Y: T
+Z: T
+INITIAL:
+ROTATION: 0.0 0.0 0.0 1.0
+TRANSLATION: 0.0 0.0 0.0 1.0
+SCALE: 1.0 2.0 2.0 1.0
+PARENT_MOUNT: 0.0 0.0 0.0 1.0
+SHADER:
+GL_VERTEX_SHADER res/shaders/vertexshader.glsl
+GL_FRAGMENT_SHADER res/shaders/fragmentshader.glsl
+SHADER_END
+// NEW_SEG_END
+
+// NEW_SEG_START
+ID: 1
+NAME: Cube
+PARENT: 0
+VERTEX_COUNT: 8
+VERTEX_SIZE: 8
+VERTEX:
+0.5 0.5 0.0 1.0     1.0 1.0 0.0 1.0
+-0.5 -0.5 0.0 1.0   1.0 1.0 0.0 1.0
+0.5 -0.5 0.0 1.0    1.0 1.0 0.0 1.0
+-0.5 0.5 0.0 1.0    1.0 1.0 0.0 1.0
+0.5 0.5 1.0 1.0     1.0 1.0 0.0 1.0
+-0.5 -0.5 1.0 1.0   1.0 1.0 0.0 1.0
+0.5 -0.5 1.0 1.0    1.0 1.0 0.0 1.0
+-0.5 0.5 1.0 1.0    1.0 1.0 0.0 1.0
+ELEMENT_TYPE: GL_TRIANGLES
+ELEMENT_COUNT: 12
+ELEMENT:
+0 1 3
+0 2 1 
+4 5 7
+4 6 5
+1 3 7
+1 7 5
+2 4 0
+2 6 4
+0 4 7
+0 7 3
+1 5 2
+2 5 6
+FREEDOM:
+ROTATION:
+X: T
+Y: T
+Z: T
+TRANSLATION:
+X: T
+Y: T
+Z: T
+INITIAL:
+ROTATION: 0.0 0.0 0.0 1.0
+TRANSLATION: 3.0 0.0 0.0 1.0
+SCALE: 1.0 1.0 1.0 1.0
+PARENT_MOUNT: 0.0 0.0 0.0 1.0
+SHADER:
+GL_VERTEX_SHADER res/shaders/vertexshader1.glsl
+GL_FRAGMENT_SHADER res/shaders/fragmentshader1.glsl
+SHADER_END
+// NEW_SEG_END
+
+// NEW_SEG_START
+ID: 2
+NAME: Cube
+PARENT: 0
+VERTEX_COUNT: 8
+VERTEX_SIZE: 8
+VERTEX:
+0.5 0.5 0.0 1.0     0.0 1.0 0.0 1.0
+-0.5 -0.5 0.0 1.0   0.0 1.0 0.0 1.0
+0.5 -0.5 0.0 1.0    0.0 1.0 0.0 1.0
+-0.5 0.5 0.0 1.0    0.0 1.0 0.0 1.0
+0.5 0.5 1.0 1.0     0.0 1.0 0.0 1.0
+-0.5 -0.5 1.0 1.0   0.0 1.0 0.0 1.0
+0.5 -0.5 1.0 1.0    0.0 1.0 0.0 1.0
+-0.5 0.5 1.0 1.0    0.0 1.0 0.0 1.0
+ELEMENT_TYPE: GL_TRIANGLES
+ELEMENT_COUNT: 12
+ELEMENT:
+0 1 3
+0 2 1 
+4 5 7
+4 6 5
+1 3 7
+1 7 5
+2 4 0
+2 6 4
+0 4 7
+0 7 3
+1 5 2
+2 5 6
+FREEDOM:
+ROTATION:
+X: T
+Y: T
+Z: T
+TRANSLATION:
+X: T
+Y: T
+Z: T
+INITIAL:
+ROTATION: 0.0 0.0 0.0 1.0
+TRANSLATION: -1.0 0.0 0.0 1.0
+SCALE: 1.0 1.0 1.0 1.0
+PARENT_MOUNT: 0.0 0.0 0.0 1.0
+SHADER:
+GL_VERTEX_SHADER res/shaders/vertexshader1.glsl
+GL_FRAGMENT_SHADER res/shaders/fragmentshader1.glsl
+SHADER_END
+// NEW_SEG_END
+
+// NEW_SEG_START
+ID: 3
+NAME: Cube
+PARENT: 0
+VERTEX_COUNT: 8
+VERTEX_SIZE: 8
+VERTEX:
+0.5 0.5 0.0 1.0     1.0 0.0 0.0 1.0
+-0.5 -0.5 0.0 1.0   1.0 0.0 0.0 1.0
+0.5 -0.5 0.0 1.0    1.0 0.0 0.0 1.0
+-0.5 0.5 0.0 1.0    1.0 0.0 0.0 1.0
+0.5 0.5 1.0 1.0     1.0 0.0 0.0 1.0
+-0.5 -0.5 1.0 1.0   1.0 0.0 0.0 1.0
+0.5 -0.5 1.0 1.0    1.0 0.0 0.0 1.0
+-0.5 0.5 1.0 1.0    1.0 0.0 0.0 1.0
+ELEMENT_TYPE: GL_TRIANGLES
+ELEMENT_COUNT: 12
+ELEMENT:
+0 1 3
+0 2 1 
+4 5 7
+4 6 5
+1 3 7
+1 7 5
+2 4 0
+2 6 4
+0 4 7
+0 7 3
+1 5 2
+2 5 6
+FREEDOM:
+ROTATION:
+X: T
+Y: T
+Z: T
+TRANSLATION:
+X: T
+Y: T
+Z: T
+INITIAL:
+ROTATION: 0.0 0.0 0.0 1.0
+TRANSLATION: 1.0 0.0 0.0 1.0
+SCALE: 1.0 1.0 1.0 1.0
+PARENT_MOUNT: 0.0 0.0 0.0 1.0
+SHADER:
+GL_VERTEX_SHADER res/shaders/vertexshader1.glsl
+GL_FRAGMENT_SHADER res/shaders/fragmentshader1.glsl
+SHADER_END
+// NEW_SEG_END
